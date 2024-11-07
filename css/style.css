@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap');
+
+:root{
+    --color-principal: red
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    
+}
+
+
+header{
+    position: sticky;
+    background-color: rgb(0, 149, 255);
+    top:0;
+    z-index: 1;
+    text-align: center;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+/*Tamaño de la imagen en el navegador*/
+nav img{
+    margin: 2rem;
+    height: 6rem;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+    background-color: rgb(0, 149, 255);
+    height: 100px;
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+
+.image{
+    height: 450px;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px -3px;
+    margin: 3rem;
+    
+}
+div img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    align-items: center;
+    align-content: center;
+    object-fit: contain;
+}
+
+
+
+button{
+    position: relative;
+     top: 50px;
+     left: 20rem;
+     transform: translate(-50%);
+     margin: 3rem 0rem 1rem 0rem;
+     width: 3rem;
+     height: 3rem;
+     border-radius: 50%;
+}
+
+
+
+
+.color1{
+    background-color: rgb(233, 84, 253);
+}
+.color2{
+    background-color: rgb(79, 172, 254);
+}
+.color3{
+    background-color: rgb(237, 179, 80);
+}
+
+
+.color1-sudadera{
+    background-color: rgb(3, 123, 27);
+}
+.color2-sudadera{
+    background-color: rgb(248, 178, 47);
+}
+.color3-sudadera{
+    background-color: rgb(24, 227, 196);
+}
+.image:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.gorro1-color1:active ~ .gorro1{
+        filter: hue-rotate(999deg);
+}
+.gorro1-color2:active ~ .gorro1{
+        filter: hue-rotate(888deg);
+}
+.gorro1-color3:active ~ .gorro1{
+        filter: hue-rotate(333deg);
+}
+
+.gorro2-color1:active ~ .gorro2{
+        filter: hue-rotate(999deg);
+}
+.gorro2-color2:active ~ .gorro2{
+        filter: hue-rotate(888deg);
+}
+.gorro2-color3:active ~ .gorro2{
+        filter: hue-rotate(333deg);
+}
+
+.blusa-color1:active ~ .blusa{
+        filter: hue-rotate(999deg);
+}
+.blusa-color2:active ~ .blusa{
+        filter: hue-rotate(888deg);
+}
+.blusa-color3:active ~ .blusa{
+        filter: hue-rotate(333deg);
+}
+
+.playera1-color1:active ~ .playera{
+        filter: hue-rotate(999deg);
+}
+.playera1-color2:active ~ .playera{
+        filter: hue-rotate(888deg);
+}
+.playera1-color3:active ~ .playera{
+        filter: hue-rotate(333deg);
+}
+
+
+.falda-color1:active ~ .falda{
+        filter: hue-rotate(999deg);
+}
+.falda-color2:active ~ .falda{
+        filter: hue-rotate(888deg);
+}
+.falda-color3:active ~ .falda{
+        filter: hue-rotate(333deg);
+}
+
+.blusa2-color1:active ~ .blusa2{
+         filter: hue-rotate(999deg);
+}
+.blusa2-color2:active ~ .blusa2{
+         filter: hue-rotate(888deg);
+}
+.blusa2-color3:active ~ .blusa2{
+        filter: hue-rotate(333deg);
+}
+
+.tennis-color1:active ~ .tennis1{
+    filter: hue-rotate(999deg);
+}
+.tennis-color2:active ~ .tennis1{
+    filter: hue-rotate(888deg);
+}
+.tennis-color3:active ~ .tennis1{
+    filter: hue-rotate(333deg);
+}
+
+.tennis2-color1:active ~ .tennis2{
+    filter: hue-rotate(999deg);
+}
+.tennis2-color2:active ~ .tennis2{
+    filter: hue-rotate(888deg);
+}
+.tennis2-color3:active ~ .tennis2{
+    filter: hue-rotate(333deg);
+}
+
+.fijo{
+   position:fixed;
+   width: 10rem;
+   bottom: 5rem;
+   
+   right: 0;
+   border-radius: 50%;
+   background-color: white;
+   box-shadow: 2px 2px 3px 0;
+   
+   
+}
+
+.fijo img{
+    width: 9rem;
+    height: 9rem;
+}
